@@ -17,8 +17,6 @@ const CreatorLayout = async ({ params, children }: CreatorLayoutProps) => {
     redirect("/");
   }
 
-  //
-  //
   return (
     <>
       <Navbar />
