@@ -9,7 +9,7 @@ export default function ErrorPage() {
   return (
     <div className="h-full flex flex-col space-y-4 items-center justify-center text-muted-foreground">
       <Image
-        src="/my-honest-reaction-my.gif"
+        src="@/public/my-honest-reaction-my.gif"
         alt="My Honest Reaction GIF"
         width={200}
         height={50}
