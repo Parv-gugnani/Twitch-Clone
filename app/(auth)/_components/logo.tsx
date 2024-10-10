@@ -14,7 +14,7 @@ export const Logo = () => {
         <Image src="/startLogo.png" alt="GameHub" height="200" width="200" />
       </div>
       <div className="flex flex-col items-center">
-        <p className="text-xl font-semibold">Twitch Clone</p>
+        <p className="text-xl font-semibold">Gaeming Hub</p>
         <p className="text-sm text-muted-foreground">Let&apos;s Play</p>
       </div>
     </div>
