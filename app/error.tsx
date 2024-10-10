@@ -5,9 +5,9 @@ import Image from "next/image";
 
 import { Button } from "@/components/ui/button";
 
-const ErrorPage = () => {
+export default function ErrorPage() {
   return (
-    <div className="h-full flex flex-col items-center justify-center text-muted-foreground">
+    <div className="h-full flex flex-col space-y-4 items-center justify-center text-muted-foreground">
       <Image
         src="/my-honest-reaction-my.gif"
         alt="My Honest Reaction GIF"
@@ -15,11 +15,9 @@ const ErrorPage = () => {
         height={50}
       />
       <p>Oops! Something went wrong. 💀</p>
-      <Button variant="secondary">
+      <Button variant="secondary" asChild>
         <Link href="/">Go back home</Link>
       </Button>
     </div>
   );
-};
-
-export default ErrorPage;
+}
